@@ -1,0 +1,146 @@
+%-------------------------
+% Resume in LaTeX
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+% Formatting
+\urlstyle{same}
+\raggedbottom
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{\scshape\large\raggedright\bfseries}{}{0em}{}[\titlerule]
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeItem}[1]{\item \small{#1\vspace{-2pt}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={-}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Md Shafiuddin Shajib} \\ \vspace{1pt}
+    Uttara, Dhaka \\ \vspace{1pt}
+    \small \href{tel:+8801700651993}{\faPhone~+8801700651993} ~ 
+    \href{mailto:mdshafiuddinshajib@gmail.com}{\faEnvelope~mdshafiuddinshajib@gmail.com} ~ 
+    \href{https://www.linkedin.com/in/mdshafiuddinshajib/}{\faLinkedin~LinkedIn} ~
+    \href{https://github.com/md-shafiuddin-shajib}{\faGithub~GitHub}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International University of Business Agriculture and Technology}{2021 -- 2024}
+      {B.Sc in Computer Science and Engineering, CGPA: 3.73*}{Dhaka, Bangladesh}
+    \resumeSubheading
+      {Adhyapak Abdul Majid College, Cumilla}{2017 -- 2019}
+      {HSC, GPA: 5.00}{Cumilla, Bangladesh}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Coursework \& Skills}
+\begin{multicols}{2}
+\begin{itemize}[itemsep=0pt]
+    \item Software Engineering
+    \item System Analysis and Design
+    \item Data Structures \& Algorithms
+    \item Operating Systems
+    \item Object-Oriented Programming
+    \item DBMS
+    \item Computer Networks
+\end{itemize}
+\end{multicols}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Intern, Cyber Hundred}{May 2024 -- Aug 2024}
+      {Software Developer}{Uttara, Dhaka}
+      \resumeItemListStart
+        \resumeItem{Developed a user-friendly tour booking platform with essential features.}
+        \resumeItem{Implemented user authentication, search functionality, and review system.}
+        \resumeItem{Handled database and created a responsive front-end using React.js, Redux, Node.js, Express.js, and MongoDB.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\href{#}{Tour Booking Management System} | React.js, Node.js, MongoDB}{2024}
+      \resumeItemListStart
+        \resumeItem{Developed an industry-ready tour booking platform.}
+        \resumeItem{Provided seamless booking, customer management, and reservation features.}
+        \resumeItem{Optimized scalability for real-world use.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\href{https://github.com/md-shafiuddin-shajib/Food-Delivery.git}{Food Delivery Website} | React.js, Redux, Tailwind CSS}{2024}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a dynamic food delivery platform.}
+        \resumeItem{Enhanced user experience with responsive design.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\href{https://github.com/md-shafiuddin-shajib/Ecommer-react.git}{E-Commerce Website} | React.js, Redux, Tailwind CSS}{2023}
+      \resumeItemListStart
+        \resumeItem{Built an e-commerce platform with product listings, shopping cart, and checkout.}
+        \resumeItem{Provided a visually appealing and user-friendly experience.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\small{
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \textbf{Languages:} JavaScript, C, C++, Java, SQL
+  \item \textbf{Technologies/Frameworks:} HTML, CSS, React, Redux, Node.js, Express.js, MongoDB
+  \item \textbf{Developer Tools:} VS Code, Figma, Canva
+\end{itemize}
+}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\begin{itemize}[itemsep=0pt]
+    \item Proficient in English
+    \item Native in Bangla
+\end{itemize}
+
+\end{document}
